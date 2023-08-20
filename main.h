@@ -6,7 +6,7 @@
 int dic_num(int dic);
 int print_char(int c);
 int print_str(char *s);
-int _printf(const char *form, ...);
+int _printf(const char *format, ...);
 int _putchar(char c);
 
 #endif
