@@ -12,7 +12,7 @@ int print_str(char *s)
 
 	if (s == NULL)
 		return (len);
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i]; i++)
 	{
 		_putchar(s[i]);
 		len++;

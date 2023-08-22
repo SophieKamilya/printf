@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdarg.h>
+#include <stdlib.h>
 int dic_num(int dic);
 int print_char(int c);
 int print_str(char *s);
